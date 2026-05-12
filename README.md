@@ -303,26 +303,26 @@ pip install matplotlib numpy pandas tqdm
 
 ```text
 .
-├── datasets/
-│   ├── Training/
-│   │   ├── Images/
-│   │   └── Masks/
-│   └── Test/
+├── ipynb/
+│   ├── DualStream-PAFM.ipynb
+│   ├── RetinaNet.ipynb
+│   ├── anchor-free.ipynb
+│   └── faster-rcnn-resnet50fpn.ipynb
 │
-├── models/
-│   ├── faster_rcnn/
-│   ├── retinanet/
-│   ├── anchor_free/
-│   └── dual_stream_pafm/
-│
-├── train.py
-├── evaluate.py
-├── inference.py
-├── utils/
-├── checkpoints/
-├── outputs/
-└── README.md
+├── CS406_Report.pdf
+├── README.md
+└── outputs/
 ```
+
+### File Descriptions
+
+| File                          | Description                                   |
+| ----------------------------- | --------------------------------------------- |
+| DualStream-PAFM.ipynb         | Proposed Dual-Stream PAFM implementation      |
+| RetinaNet.ipynb               | RetinaNet baseline experiment                 |
+| anchor-free.ipynb             | Anchor-free detector implementation           |
+| faster-rcnn-resnet50fpn.ipynb | Faster R-CNN baseline with ResNet50-FPN       |
+| CS406_Report.pdf              | Full project report and experimental analysis |
 
 ---
 
